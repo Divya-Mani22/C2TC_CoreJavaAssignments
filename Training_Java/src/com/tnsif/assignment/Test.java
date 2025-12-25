@@ -10,13 +10,14 @@ class A {
 	    void show() {
 	        System.out.println("B");
 	    }
+	}
 	    public class Test {
 	
 		public static void main(String[] args) {
-	        A obj = new B();   
+	        A obj = new A();   
 	        obj.show();
 	    }
 
 	}
 
-	}
+	
